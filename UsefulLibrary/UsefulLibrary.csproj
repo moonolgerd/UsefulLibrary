@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>My useful library</Description>
+    <Authors>moonolgerd</Authors>
+    <Company>MOONKo</Company>
+  </PropertyGroup>
+
+</Project>
