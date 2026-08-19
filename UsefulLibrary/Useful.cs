@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace UsefulLibrary
 {
@@ -10,6 +10,11 @@ namespace UsefulLibrary
                 throw new ArgumentNullException(nameof(name));
             
             return $"Hello, {name}!";
+        }
+
+        public static int Add(int a, int b)
+        {
+            return a + b;
         }
     }
 }
